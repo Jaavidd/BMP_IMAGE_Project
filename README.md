@@ -1,3 +1,1 @@
-# ParetoRank
-
-Finding paretos and calculating rank of each one.
+# Data Structures and Algorothms on C language
