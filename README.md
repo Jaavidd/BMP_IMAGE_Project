@@ -1,1 +1,1 @@
-# Data Structures and Algorothms on C language
+# Data Structures and Algorithms on C language
