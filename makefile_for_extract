@@ -1,0 +1,9 @@
+all:  extractStrip.o main_for_extract.o
+	gcc  extractStrip.o main_for_extract.o -o extractStrip 
+
+extractStrip.o: extractStrip.c
+	gcc -c extractStrip.c
+
+main_for_extract.o: main_for_extract.c
+	gcc -c main_for_extract.c
+

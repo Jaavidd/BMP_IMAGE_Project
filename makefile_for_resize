@@ -1,0 +1,8 @@
+all: resize.o  main_for_resize.o
+	gcc resize.o  main_for_resize.o -o resize 
+resize.o: resize.c
+	gcc -c resize.c
+
+main.o: main_for_resize.c
+	gcc -c main_for_resize.c
+
